@@ -1,6 +1,29 @@
 # Advanced Deep Learning Project Code
+This Gihub repository contains the code for the Advanced Deep Learning project by Selma Ancel.
+For this project, seven different models were trained to assess their performance on a Land Use Land Cover (LULC) classification task.
 
-This Github repository contains the code for the Advanced Deep Learning project by Selma Ancel.
+**The seven models used are:**
+- **Vision Transformer (ViT), by Dosovitskiy et al. (2021).**
+  
+  Code source: https://huggingface.co/timm/vit_base_patch16_224.mae
+- **Compact Convolutional Transformer (CCT).**
+
+  Code source: https://github.com/SHI-Labs/Compact-Transformers/tree/main
+- **Data-efficiënt image Transformer (DeiT) by Touvron et al. (2021).**
+
+  Code source: https://github.com/facebookresearch/deit/tree/main
+- **Convolution-Enhanced Image Transformers (CeiT) by Yuan et al. (2021).**
+
+  Code source: https://github.com/coeusguo/ceit
+- **LocalVit by Li et al. (2021).**
+
+  Code source: https://github.com/ofsoundof/LocalViT
+- **Conformer by Peng et al. (2021).**
+
+  Code source: https://github.com/pengzhiliang/Conformer
+- **Convolutional vision Transformer (CvT) by Wu et al. (2021).**
+
+  Code source: https://github.com/leoxiaobin/CvT
 
 ## Setup
 The following files are included:
@@ -10,7 +33,7 @@ The following files are included:
 - **ADL code scratch:** Includes the ViT, CCT, DeiT, CeiT, LocalViT, Conformer and CvT trained from scratch on a quarter of the EuroSaT dataset.
 
 ## Data
-The data used for this project was the EuroSAT dataset created by Helber et al. (2018). The dataset can be found here: https://github.com/phelber/EuroSAT
+The data used for this project was the EuroSAT dataset created by Helber et al. (2018). The dataset can be found [here.](https://github.com/phelber/EuroSAT)
 
 ## References relevant to the code
 - Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., Dehghani, M., Minderer, M., Heigold, G., Gelly, S., Uszkoreit, J., & Houlsby, N. (2021). An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale.
